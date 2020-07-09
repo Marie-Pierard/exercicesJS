@@ -1,10 +1,10 @@
 
-// 01-base/04-asv-confirm/script.js - 1.4: ASV avec confirmation
+    do {
+        let age = prompt("How old are you?");
+        let sex = prompt("Are you male or female?");
+        let city = prompt("In which city do you live?");
+        var confirmation = confirm("Your are "+age+", you are a "+sex+" and you live in "+city+". Is that correct?");       
+    } 
+    while (confirmation != true);     
 
-(() => {
-    // Don't bother with that, look at your browser's console(chrome), you can delete it afterwards ;)
-    console.log('%c ', 'padding: 38px; background:url(https://becode.org/app/uploads/2020/03/bc_mailsign_seal.png) no-repeat;');
-    console.log('Hello Woods programmer');
 
-    // YOUR CODE HERE
-})();
