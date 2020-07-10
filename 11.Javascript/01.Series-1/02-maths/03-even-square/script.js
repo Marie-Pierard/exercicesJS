@@ -6,8 +6,13 @@
 
     document.getElementById("run").addEventListener("click", () => {
 
-        // your code here
-
+        let squareNumbers = [];
+        
+        for(let i = 1; i <= 21; i++ ){
+                squareNumbers.push(Math.pow(i, 2));
+            
+        }
+        alert(squareNumbers);
     });
 
 })();
