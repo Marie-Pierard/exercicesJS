@@ -21,5 +21,11 @@
     ];
 
     // your code here
+    document.getElementById("run").addEventListener('click', function(){
+    //https://medium.com/dailyjs/how-to-remove-array-duplicates-in-es6-5daa8789641c
+        const uniqueSet = new Set(fruits);
 
+        const backToArray = [...uniqueSet];
+        console.log(backToArray);
+    });
 })();

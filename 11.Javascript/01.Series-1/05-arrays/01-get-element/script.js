@@ -18,5 +18,5 @@
     ];
 
     // your code here
-
+console.log(fruits[3])
 })();

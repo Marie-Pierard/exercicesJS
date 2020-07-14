@@ -7,5 +7,13 @@
     // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
 
     // your code here
-
+    let d = new Date();
+    let n = d.getHours();
+    let m = d.getMinutes();
+    if (n < 17 && m <= 30) {
+        document.getElementById("target").innerHTML = "Hello";
+    }else {
+        document.getElementById("target").innerHTML = "Good evening";
+    }
 })();
+

@@ -82,5 +82,10 @@
     ];
 
     // your code here
-
+    document.getElementById("run").addEventListener('click', function(){
+    
+    let sum = people.reduce((a, b) => a + b.age, 0);//https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Array/reduce
+    
+    console.log(sum);
+});
 })();

@@ -31,4 +31,15 @@
     ]);
 
     // your code here
-})();
+    document.getElementById("run").addEventListener('click', function(){
+        const randBird = birds[Math.floor(Math.random() * birds.length)];
+        let Adj = Array.from(adjectives);//https://stackoverflow.com/questions/42739256/how-get-random-item-from-es6-map-or-set
+        const randAdj = Adj[Math.floor(Math.random() * Adj.length)];
+
+        if (randBird.fem === true) {
+            document.getElementById("target").innerHTML = "La " + randBird.name + " " + randAdj + "e";
+        } else {
+            document.getElementById("target").innerHTML = "Le " + randBird.name + " " + randAdj;
+        }
+    })
+    })();
