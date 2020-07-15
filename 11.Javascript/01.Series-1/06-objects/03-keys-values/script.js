@@ -11,4 +11,9 @@
         status: "married",
     };
     // your code here
-})();
+    //https://medium.com/better-programming/object-keys-values-and-entries-javascript-es6-feature-series-part-9-d71268791089
+    document.getElementById("run").addEventListener("click", function(){
+        console.log(Object.keys(person));
+        console.log(Object.values(person));
+    });
+    })();

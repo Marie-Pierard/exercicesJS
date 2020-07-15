@@ -3,4 +3,14 @@
 
 (() => {
     // your code here
+    document.getElementById("run").addEventListener("click", function(){
+    let person = {
+        firstname:"Marie", lastname: "Pierard", age:31, city:"New York", country:"USA"
+         };
+
+    console.log(person);
+    });
+    
+
+
 })();
