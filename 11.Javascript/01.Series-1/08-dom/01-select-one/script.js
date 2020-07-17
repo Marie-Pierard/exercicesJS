@@ -3,5 +3,6 @@
 (() => {
 
     // your code here
-
+let d = document.getElementById("target");
+d.innerHTML = "owned";
 })();

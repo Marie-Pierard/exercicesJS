@@ -13,4 +13,16 @@
 
     // your code here
 
+
+    document.getElementById("next").addEventListener("click", function() {
+       
+        for(let i = 0; i <= gallery.length; i++) {
+           document.getElementsByTagName("img")[0].src = gallery[i];
+       
+        }
+        });
+        
+
+
+
 })();
